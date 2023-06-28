@@ -1,4 +1,5 @@
 import subprocess
+import socket
 
 def update_hosts_file(ip_address, hostname):
     hosts_path = '/etc/hosts'
@@ -15,7 +16,7 @@ def update_hosts_file(ip_address, hostname):
         with open(hosts_path, 'w') as file:
             file.writelines(lines)
 
-ip_address = '127.0.0.1'
+ip_address = socket.gethostbyname(socket.gethostname())
 hostname = 'cbr.ru'
 
 update_hosts_file(ip_address, hostname)
