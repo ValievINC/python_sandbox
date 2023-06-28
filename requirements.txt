@@ -1,0 +1,15 @@
+matplotlib
+requests
+prettytable
+var_dump
+pandas
+fastapi[All]
+uvicorn
+Django
+django-storages
+bs4
+openpyxl
+fitz
+opencv-python
+pillow
+reportlab
