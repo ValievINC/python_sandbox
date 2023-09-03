@@ -9,7 +9,7 @@ Django
 django-storages
 bs4
 openpyxl
-fitz
+pymupdf
 opencv-python
 pillow
 reportlab
